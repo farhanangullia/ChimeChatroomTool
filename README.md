@@ -10,10 +10,12 @@ Python: 3.6^
 ## Setup
 
 Clone this repo and navigate to the ChimeChatroomTool folder then run this command to install the required packages:
+
+
 `pip install -r requirements.txt`
 
 
-Replace the chrome driver in the driver folder with a version that's appropriate for your browser. The chromedriver version that is provided in this repository is for Chrome version 81.x 
+Replace the chrome driver in the driver folder with a version that's appropriate for your browser. The chromedriver that is provided in this repository is for Chrome version 81.x 
 
 ## Configure
 
