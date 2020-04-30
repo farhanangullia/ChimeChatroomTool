@@ -1,5 +1,5 @@
 # Chime Chatroom Tool
-This script automates the process of adding members to a chat room in Chime, without the using Chime API. This is intended for users who are unable to utilize certain methods from Chime API due to an absence of an enterprise account.
+This script automates the process of adding members to a chat room in Chime, without using Chime API. This is intended for users who are unable to utilize certain methods from Chime API due to an absence of an enterprise account.
 
 ## Prerequisites
 Chrome Version: 81
@@ -8,6 +8,8 @@ Chrome Version: 81
 Python: 3.6^
 
 ## Setup
+
+Clone this repo and navigate to the ChimeChatroomTool folder then run this command to install the required packages:
 `pip install -r requirements.txt`
 
 
@@ -35,11 +37,15 @@ In config/parameters.ini:
 Ensure that you have configured properly in the previous section before running the script.
 
 
-On your terminal, run the command:
+1. On your terminal, run the command:
+
+
 `python chime-room-tool.py`
 
 
-When chrome launches and navigates to Chime, login with your credentials. 
+2. When chrome launches and navigates to Chime, login with your credentials. 
 
 
-Once you have logged in, press Enter on your terminal. This will start a loop, where it adds every member from the excel sheet to the chat room. Once every member is added the script will stop and 2 new sheets will be created in the excel file: 'Failed' and 'Added'. The 'Failed' sheet contains the list of emails that were failed to be added to the chat room. The 'Added' sheet contains the list of names of the members that were added to the chat room.
+3. Once you have logged in, press Enter on your terminal. This will start a loop, where it adds every member from the excel sheet to the chat room. 
+
+4. Once every member is added the script will stop and 2 new sheets will be created in the excel file: 'Failed' and 'Added'. The 'Failed' sheet contains the list of emails that were failed to be added to the chat room. The 'Added' sheet contains the list of names of the members that were added to the chat room.
