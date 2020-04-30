@@ -30,6 +30,8 @@ def add_members():
     try:
         print("Adding members to chatroom from excel sheet...")
         for cell in tqdm(ws['A']):
+            if cell.value is None:
+                break
             email = cell.value.strip()
             add_member_url = "{}/members/add?email={}".format(CHATROOM_URL, email)
             driver.get(add_member_url)
