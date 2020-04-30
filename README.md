@@ -34,13 +34,13 @@ In config/parameters.ini:
 
 ## Run
 
-Ensure that you have configured properly in the previous section before running the script.
+Ensure that you have configured the paramters properly in the previous section before running the script.
 
 
 1. On your terminal, run the command:
 
 
-`python chime-room-tool.py`
+    `python chime-room-tool.py`
 
 
 2. When chrome launches and navigates to Chime, login with your credentials. 
