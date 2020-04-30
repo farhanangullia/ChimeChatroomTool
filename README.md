@@ -34,7 +34,7 @@ In config/parameters.ini:
 
 ## Run
 
-Ensure that you have configured the paramters properly in the previous section before running the script.
+Ensure that you have configured the parameters properly in the previous section before running the script.
 
 
 1. On your terminal, run the command:
