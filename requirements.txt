@@ -1,0 +1,4 @@
+selenium
+openpyxl
+configparser
+tqdm
